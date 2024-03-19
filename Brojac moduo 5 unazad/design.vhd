@@ -23,5 +23,6 @@ begin
             end if;
         end if;
         count <= std_logic_vector(temp_count);
+        
     end process;
 end Behavioralds;
