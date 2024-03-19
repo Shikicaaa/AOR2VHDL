@@ -10,14 +10,16 @@ architecture Behavioral of BCD3_counter_tb is
 	constant clk_period : time := 10 ns;
     
     signal clk : std_logic := '0';
-    signal rst : std_logic := '0';
-    signal Qout : std_logic_vector(11 downto 0);
+    signal wr : std_logic := '0';
+    signal ce : std_logic := '0';
+    signal din : std_logic_vector := "100110011001";
     
 begin
 	UUT: entity work.BCD3_counter(BCD3_arch) port map(
     clk => clk,
-    rst => rst,
-    Qout => Qout);
+    wr => wr,
+    ce => ce,
+    din => din);
     
     clock_process: process
     begin
@@ -27,10 +29,18 @@ begin
     
     stimulus: process
     begin
-    	rst <= '1';
-        wait for 10 ns;
-        rst <= '0';
-        
+    	wr <= '0';
+        ce <= '0';
+        wait for 30 ns;
+    	wr <= '0';
+        ce <= '1';
+        wait for 30 ns;
+    	wr <= '1';
+        ce <= '1';
+        din <= "100110000111";
+        wait for 30 ns;
+        wr <= '0';
+        ce <= '1';      
         wait for 10 ns;
         
         wait;
