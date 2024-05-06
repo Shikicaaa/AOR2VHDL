@@ -1,0 +1,40 @@
+{C:/Users/stefa/Desktop/aor2/VHDL/New folder/andGate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\stefa\Desktop\aor2\VHDL\New folder\andGate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity andGate
+-- Compiling architecture a_andGate of andGate
+
+} {} {}} {C:/Users/stefa/Desktop/aor2/VHDL/New folder/kolo.vhd} {1 {vcom -work work -2008 -explicit -stats=none {C:\Users\stefa\Desktop\aor2\VHDL\New folder\kolo.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity kolo
+-- Compiling architecture a_kolo of kolo
+-- Loading entity andGate
+-- Loading entity orGate
+
+} {} {}} {C:/Users/stefa/Desktop/aor2/VHDL/New folder/tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\stefa\Desktop\aor2\VHDL\New folder\tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb
+-- Compiling architecture a_tb of tb
+-- Loading entity kolo
+
+} {} {}} {C:/Users/stefa/Desktop/aor2/VHDL/New folder/orGate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\stefa\Desktop\aor2\VHDL\New folder\orGate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity orGate
+-- Compiling architecture a_orGate of orGate
+
+} {} {}}

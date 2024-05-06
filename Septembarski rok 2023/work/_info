@@ -1,0 +1,93 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/stefa/Desktop/aor2/VHDL/New folder
+Ebrojac
+Z0 w1715021150
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/stefa/Desktop/aor2/VHDL/Septembarski rok 2023
+Z5 8C:\Users\stefa\Desktop\aor2\VHDL\Septembarski rok 2023\brojac.vhd
+Z6 FC:\Users\stefa\Desktop\aor2\VHDL\Septembarski rok 2023\brojac.vhd
+l0
+L5
+VN]<Z84KdWg`2d^2@JAI]?1
+!s100 zTYN:UZciQ1h^>bLJ^jZ10
+Z7 OV;C;10.5b;63
+33
+Z8 !s110 1715021158
+!i10b 1
+Z9 !s108 1715021158.000000
+Z10 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:\Users\stefa\Desktop\aor2\VHDL\Septembarski rok 2023\brojac.vhd|
+Z11 !s107 C:\Users\stefa\Desktop\aor2\VHDL\Septembarski rok 2023\brojac.vhd|
+!i113 1
+Z12 o-work work -2008 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aa_brojac
+R1
+R2
+R3
+Z14 DEx4 work 6 brojac 0 22 N]<Z84KdWg`2d^2@JAI]?1
+l14
+L13
+VQIm9E<FX:fQBQW1L5XN5G2
+!s100 d8c0m2mfBK^0[NeUk:RzZ0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb
+Z15 w1715022717
+R1
+R2
+R3
+R4
+Z16 8C:\Users\stefa\Desktop\aor2\VHDL\New folder\tb.vhd
+Z17 FC:\Users\stefa\Desktop\aor2\VHDL\New folder\tb.vhd
+l0
+L5
+Vzm2bk@:I7maC[QIeMM[Va2
+!s100 QAZo1DZQVM9ZE8[8E>bJJ2
+R7
+32
+Z18 !s110 1715022721
+!i10b 1
+Z19 !s108 1715022721.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\stefa\Desktop\aor2\VHDL\New folder\tb.vhd|
+Z21 !s107 C:\Users\stefa\Desktop\aor2\VHDL\New folder\tb.vhd|
+!i113 1
+Z22 o-work work -2002 -explicit
+R13
+Aa_tb
+R14
+R1
+R2
+R3
+Z23 DEx4 work 2 tb 0 22 zm2bk@:I7maC[QIeMM[Va2
+l12
+L9
+Vc84cfC[@>ECn6F1?kTdDi2
+!s100 B7nj>3XZLC]>jgh9L3dH=1
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R13

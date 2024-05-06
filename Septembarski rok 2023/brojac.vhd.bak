@@ -1,0 +1,27 @@
+library ieee;
+	use ieee.std_logic_1164.all;
+	use ieee.numeric_std.all;
+
+entity brojac is
+generic(n : integer := 4);
+port(
+	rst, clk : in std_logic;
+	dout : out std_logic_vector(0 to n-1)
+);
+end brojac;
+
+architecture a_brojac of brojac is
+begin
+	process(clk)
+		variable broj : integer := 0;
+	begin
+	if clk'event then
+		if rst = '1' or broj = 2**n - 1 then
+			broj := 2**(n-1); -- 1000 za n = 4;
+		elsif rst = '0' and broj /= 2**n - 1 then
+			broj := shift_right(unsigned(to_unsigned(broj,1);
+		end if;
+	end if;
+	dout <= std_logic_vector(to_unsigned(broj,n));
+	end process;
+end architecture;
